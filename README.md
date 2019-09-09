@@ -1,15 +1,18 @@
 # JsonObjectToList
 Convert JSON object into list with key and value pair using model binding in .net framework web api
 
-URL: http://localhost:54184/api/values
-Method: POST
+URL: http://localhost:54184/api/values <br/>
+Method: POST <br />
 Request Body:
+```
 {
     "name": "My Name",
     "age": "30"
 }
+```
 
 Response Body:
+```
 {
     "KeyValuePairs": [
         {
@@ -22,3 +25,4 @@ Response Body:
         }
     ]
 }
+```
